@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  width: 400px;
+  display: inline-block;
+  padding: 4px;
+  background-color: #111;
+  padding: 80px;
+  outline-style: double;
+  outline-color: #777;
+  outline-width: 8px;
+}
+
+form input,
+select {
+  margin: 3px;
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #03c4c4;
+  color: #444;
+}
+
+::placeholder {
+  color: #444;
+}
+
+img {
+  box-sizing: content-box;
+  height: 100px;
+  padding: 5px;
+  border: 8px solid yellow;
+  border-radius: 8px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 4px;
+}
